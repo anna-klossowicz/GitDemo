@@ -1,0 +1,63 @@
+{
+	"name": "prettier-standard-vscode",
+	"displayName": "Prettier-Standard - JavaScript formatter",
+	"description": "VS Code plugin for prettier + standard",
+	"version": "0.9.2",
+	"publisher": "numso",
+	"author": "Dallin Osmun <@dallinosmun>",
+	"galleryBanner": {
+		"color": "#ffe04b",
+		"theme": "light"
+	},
+	"homepage": "https://marketplace.visualstudio.com/items?itemName=numso.prettier-standard-vscode",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/numso/prettier-standard-vscode.git"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/numso/prettier-standard-vscode/issues"
+	},
+	"engines": {
+		"vscode": "^1.60.0"
+	},
+	"categories": [
+		"Formatters"
+	],
+	"activationEvents": [
+		"onLanguage:javascript",
+		"onLanguage:javascriptreact",
+		"onLanguage:json",
+		"onLanguage:json5",
+		"onLanguage:jsonc",
+		"onLanguage:typescript",
+		"onLanguage:typescriptreact",
+		"onLanguage:css",
+		"onLanguage:scss",
+		"onLanguage:less",
+		"onLanguage:graphql",
+		"onLanguage:markdown",
+		"onLanguage:mdx",
+		"onLanguage:html",
+		"onLanguage:vue",
+		"onLanguage:yaml",
+		"onLanguage:flow",
+		"onLanguage:angular"
+	],
+	"main": "./src/extension",
+	"devDependencies": {
+		"@types/vscode": "1.60.0"
+	},
+	"dependencies": {
+		"prettier-standard": "16.3.0",
+		"typescript": "3.9.3"
+	},
+	"__metadata": {
+		"id": "945fe310-535c-4f65-b93d-b93d70401ab8",
+		"publisherId": "47645c15-4969-4123-9fe0-78953af30f9d",
+		"publisherDisplayName": "numso",
+		"isPreReleaseVersion": false,
+		"preRelease": false,
+		"installedTimestamp": 1644247671333
+	}
+}
